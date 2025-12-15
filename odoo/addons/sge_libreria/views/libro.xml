@@ -8,6 +8,7 @@
           <field name="name"/>
           <field name="precio"/>
           <field name="ejemplares"/>
+          <field name="categoria_id" />
         </tree>
       </field>
     </record>
@@ -24,6 +25,7 @@
               <field name="fecha_compra"/>
               <field name="segmano"/>
               <field name="estado"/>
+              <field name="categoria_id" />
             </group>
           </sheet>
         </form>
