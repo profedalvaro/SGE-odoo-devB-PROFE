@@ -21,7 +21,7 @@
               <field name="name"/>
               <field name="precio"/>
               <field name="ejemplares"/>
-              <field name="fecha__compra"/>
+              <field name="fecha_compra"/>
               <field name="segmano"/>
               <field name="estado"/>
             </group>
