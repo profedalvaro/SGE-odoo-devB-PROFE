@@ -6,6 +6,12 @@
         <field name="view_mode">tree,form</field>
     </record>
 
+    <record id="sge_libreria_libro_action_window" model="ir.actions.act_window">
+        <field name="name">Libro</field>
+        <field name="res_model">sge_libreria.libro</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
     <menuitem
         id="sge_libreria_root"
         name="Librería"
@@ -17,5 +23,12 @@
         action="sge_libreria_categoria_action_window"
         parent="sge_libreria_root"
         sequence="10"/>
+
+    <menuitem
+        id="sge_libreria_libro_menu"
+        name="Libros"
+        action="sge_libreria_libro_action_window"
+        parent="sge_libreria.root"
+        sequence="15"/>
   </data>
 </odoo>
