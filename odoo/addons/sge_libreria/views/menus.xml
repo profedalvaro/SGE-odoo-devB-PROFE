@@ -12,6 +12,12 @@
         <field name="view_mode">tree,form</field>
     </record>
 
+    <record id="sge_libreria_autor_action_window" model="ir.actions.act_window">
+        <field name="name">Autor</field>
+        <field name="res_model">sge_libreria.autor</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
     <menuitem
         id="sge_libreria_root"
         name="Librería"
@@ -30,5 +36,12 @@
         action="sge_libreria_libro_action_window"
         parent="sge_libreria_root"
         sequence="15"/>
+
+    <menuitem
+        id="sge_libreria_autor_menu"
+        name="Autores"
+        action="sge_libreria_autor_action_window"
+        parent="sge_libreria_root"
+        sequence="20"/>
   </data>
 </odoo>
