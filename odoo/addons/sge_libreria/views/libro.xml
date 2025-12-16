@@ -8,6 +8,8 @@
           <field name="name"/>
           <field name="precio"/>
           <field name="ejemplares"/>
+          <!-- Los campos relacionales, como categoria_id, se pueden usar como cualquier otro en vistas.
+          Odoo nos mostrará el atributo name del objeto relacionado. -->
           <field name="categoria_id" />
         </tree>
       </field>
@@ -25,6 +27,8 @@
               <field name="fecha_compra"/>
               <field name="segmano"/>
               <field name="estado"/>
+              <!-- Los campos relacionales, como categoria_id, se pueden usar como cualquier otro en vistas.
+              Odoo nos mostrará el atributo name del objeto relacionado. -->
               <field name="categoria_id" />
             </group>
           </sheet>
